@@ -1,0 +1,25 @@
+/* SCROLL UP BUTTON */
+  /* Scroll Up Icon */
+  .btnScrollToUpHidden{
+    display: none;
+  }
+  .btnScrollToUp{
+      /* hide the button to show icon when scrolling */
+     display:block;
+     background-color: #fbfbfb;
+     border-radius: 50%;
+     position: fixed;
+     right:20px;
+     bottom: 20px;
+     width:40px;
+     height:40px;
+     box-shadow: 0 5px 4px rgb(160, 128, 128);
+     outline: none;
+     cursor: pointer;
+     border:none;  
+  }
+  
+  /* Change color when click on it */
+  .btnScrollToUp:active {
+    background-color: rgb(254 249 195);
+  }

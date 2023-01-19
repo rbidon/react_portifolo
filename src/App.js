@@ -1,16 +1,17 @@
-// Import Components
 import Header from './components/Header'
-import Home from './components/Home/Home'
+import Footer from './components/Footer'
 import './App.css';
 import AppRouter from './AppRouter'
+import GoTop from './components/goToTopButton';
 function App() {
+  
   return (
     <div className="App">
-      <div className="HomepageLayout">
+      <div className="HomepageLayout min-h-full min-w-full">
         {/* React Portfolio */}
         <Header/>
         <AppRouter/>
-        {/* <Home/> */}
+        <Footer/>
       </div>
       
       

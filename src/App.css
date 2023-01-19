@@ -1,17 +1,131 @@
 
-.App {
-  text-align: center;
-  
-}
 * {box-sizing:border-box;
   margin:0;
   padding:0;
   
 }
 html, body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   overflow-x: hidden;
 }
 
 /* /* HEADER STYLING */
+/* NAVBAR */
+/* menu page */
+
+/* .burger div {
+width: 20px;
+height: 3px;
+background-color:#000000;
+margin-bottom:4px;
+border-radius: 5px;
+}  */
+.navButton{
+  display: none;
+  position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+}
+@media (max-width: 640px) {
+  #navLink{
+    flex-direction:column; 
+    align-items: baseline;
+    padding-top: 33px;
+    height: 100%;
+  }
+  .navButton{
+    align-self:flex-end;
+    display: block;
+  }
+  nav{
+    flex-direction: column;
+    /* background-color: beige; */
+  }
+}
+/* HOME */
+  /* =========================== SOCIAL MEDIA ICONS ======================================== */
+  .socialmedia ul {
+    /* list-style-type: none; */
+    text-decoration: none;
+   color: #000000;
+   border-radius: 50%;
+   display:flex;
+    justify-content:flex-end;
+  
+ }
+ .socialmedia ul li {
+     list-style-type: none;
+     margin:0 10px;
+ }
+ .social-icon {
+     margin-top: 20%;
+ }
+ .socialmedia ul li .social-icon{
+   color: #000000;
+   font-size: 25px;
+   line-height: 50px;
+   transition: .5s;
+ }
+ .socialmedia ul li .fa:hover {
+     color:#ffffff;
+ }
+ .socialmedia ul li a {
+     position:relative;
+     display:block;
+     /* Where I can size the icon background */
+     width:50px;
+     height:50px;
+     border-radius:50%;
+     background-color: white;
+     text-align: center;
+     transform: .6s;
+     box-shadow: 0 5px 4px rgb(160, 128, 128);
+   /* Possible box shadow color */
+     /* background-color: #F6E1E1; */
+ }
+
+ /* Hovering w. Social Media */
+ .socialmedia ul li a:hover {
+   transform: rotate(0deg) skew(0deg) translate(0, -10px);
+   transition: all .4s ease;
+   -webkit-transition: all .4s ease;
+ }
+ 
+/* Github Color */
+.socialmedia ul li:nth-child(1) a:hover {
+   background-color:#6e5494;
+   color: #fff;
+}
+ /* Linkedin color */
+ .socialmedia ul li:nth-child(3) a:hover {
+   background-color: #0077B5;
+   color: #fff;
+}   /*   Email Color */
+.socialmedia ul li:nth-child(2) a:hover {
+   background-color: #DEDBD2;
+   color: #fff;
+}
+ .socialmedia a:link {
+    text-decoration: none;
+     color: #000000;
+ }
+ .socialmedia a:visited {
+     color: #000000;
+ }
+ /* .socialmedia a:hover {
+     color: #951515;
+ } */
+ .socialmedia a:active {
+     color: #000000;
+ }
+
+/* FOOTER */
+.Footer {
+  position: static;
+  background-color: rgb(254 243 199);
+  min-height: 208px;
+  width: 100%;
+  bottom: 0;
+}
