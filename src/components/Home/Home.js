@@ -1,10 +1,9 @@
 import React from 'react';
 
-import MainSection from './MainSection'
 import Typewriter from 'typewriter-effect';
 const Home =() =>{
     return(
-        <div className="HomeContainer min-h-full min-w-full container p-5" style={{height: "690px"}}>
+        <div className="HomeContainer min-h-full min-w-full container p-5" style={{height: "790px"}}>
             {/* Home Section */}
             <section className="MainSectionContainer min-h-full min-w-full flex space-y-4 justify-evenly items-center lg:flex-row max-[660px]:flex-col-reverse">
                 <div className="flex flex-col items-center">
@@ -29,11 +28,11 @@ const Home =() =>{
                           }}/>
                 </div>
                 {/* Learn More Button */}
-                <div>
+                <a href={`works`}>
                     <button className="btn  text-black outline font-bold py-2 px-4 rounded-full hover:outline-dashed">
                         View My Works
                     </button>
-                </div>
+                </a>
                 </div>
                 <div className="MainSectionImage">
                     {/* Portifolo Image */}

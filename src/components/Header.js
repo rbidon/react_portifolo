@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import logo from '../images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
-import AppRouter from '../AppRouter'
+import { solid} from '@fortawesome/fontawesome-svg-core/import.macro'
 const Header = () => {
   const [openNav, setOpenNav] = useState(false)
   console.log("my navbar is open", openNav)
@@ -22,15 +21,12 @@ const Header = () => {
 
   }, [])
 
-  const styles ={
-    navBar:{ display:openNav ? "block" :"none",
 
-    }
-  }
   return(
         <>
+        
         {/* // <!-- header section --> */}
-        <header className="header flex justify-between"> 
+        <header className={`header flex justify-between ${openNav ?"outline-double" :""}`}> 
         <div className="logo p-2">
             {/* This will send you back to the homepage */}
                {/* <a className="icon nav-links" href="./index.html"> */}
@@ -61,7 +57,7 @@ const Header = () => {
           }
            </button>
            {(openNav  || screenWidth > 640) &&(
-             <ul className ="nav-links flex space-x-5 text-lg" id="navLink" >
+             <ul className ="nav-links flex space-x-5 space-y-2 text-lg " id="navLink" >
              
              <li className="nav-item ">
                <a href={`about`}>About</a>

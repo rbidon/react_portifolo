@@ -2,7 +2,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import './App.css';
 import AppRouter from './AppRouter'
-import GoTop from './components/goToTopButton';
+
 function App() {
   
   return (
