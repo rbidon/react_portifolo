@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid} from '@fortawesome/fontawesome-svg-core/import.macro'
 const Header = () => {
   const [openNav, setOpenNav] = useState(false)
-  console.log("my navbar is open", openNav)
+  // console.log("my navbar is open", openNav)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Header = () => {
         <>
         
         {/* // <!-- header section --> */}
-        <header className={`header flex justify-between ${openNav ?"outline-double" :""}`}> 
+        <header className={`header flex justify-between fixed top-0 left-0 right-0  bg-yellow-100 ${openNav ?"outline-double" :"outline-double"}`}> 
         <div className="logo p-2">
             {/* This will send you back to the homepage */}
                {/* <a className="icon nav-links" href="./index.html"> */}
@@ -57,20 +57,20 @@ const Header = () => {
           }
            </button>
            {(openNav  || screenWidth > 640) &&(
-             <ul className ="nav-links flex space-x-5 space-y-2 text-lg " id="navLink" >
+             <ul className ="nav-links flex space-x-6  text-lg " id="navLink" >
              
-             <li className="nav-item ">
+             <li className="nav-item space-y-1">
                <a href={`about`}>About</a>
              </li>
-             <li className="nav-item">
+             <li className="nav-item space-y-1">
                <a href={`works`}>Works</a>
               
              </li>
              {/* Contact Page will Show on my index with icons/ footers */}
-             <li className="nav-item"> 
+             <li className="nav-item space-y-1"> 
                <a href={`contact`}>Contact</a>
              </li>
-             <li className="nav-item">
+             <li className="nav-item space-y-1">
                 Resume
                  {/* Use Router */}
                {/* <a href="https://drive.google.com/file/d/1vqfx

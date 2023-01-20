@@ -50,7 +50,7 @@ const ContactForm = ()=>{
 
          {/* <h1>Contact Page</h1>
         <p>Feel free to reach with any inquiry!</p>  */}
-        <div className="contactHolder">
+        <div className="contactHolder pt-24">
             <div>
             <h2 className="contactme-title">Contact</h2>
             <p className='contactme-description text-center pb-4' >Feel free to reach out with any inquiry! </p>
