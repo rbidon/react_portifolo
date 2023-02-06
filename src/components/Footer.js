@@ -1,11 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { solid,  brands, } from '@fortawesome/fontawesome-svg-core/import.macro'
 import GoTop from './goToTopButton'
 const Footer =()=>{
-    const openInNewTab = (url)=>{
-        window.open(url, '_blank','noopener ,noreferrer');
-    }
+    
     return(
         <div>
         <footer className="Footer static container-fluid bg-yellow-100 min-w-full min-h-full rounded-lg inset-x-0 bottom-0 p-4" 
