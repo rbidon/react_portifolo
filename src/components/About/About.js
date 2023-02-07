@@ -5,10 +5,12 @@ const About =()=>{
         <div className="pt-28" >
             <section id="about">
       <div className="container mx-auto flex px-10 py-20  flex-col items-center w-full">
-        <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-center mb-16 md:mb-0 items-center text-center w-full">
+        <div className="lg:flex-grow  lg:pr-24 lg:pl-24 md:pr-16 flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center text-center w-full">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-center self-center ">
-            Hi, I'm Reed.
-            <br className="hidden lg:inline-block text-center" />I love to build amazing
+            Hey Again, I'm Rousse.
+            <br className="hidden lg:inline-block text-center" />I have a passionate for accessibility and creating usable digital products.
+
+to build amazing
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
@@ -19,16 +21,23 @@ const About =()=>{
           
           <div className="skillsOuter ">
             <h2 className="sm:text-4xl text-2xl mb-4 font-medium text-center">Skills</h2>
+          <div className="skillsInner">
           <div className="skillsContainer grid  grid-cols-5 gap-4 place-content-center">
             {skillData.map((skill,idx)=> (
-              <div key={idx}>
-                <img className="h-[auto] w-[auto] lg:w-[150px] h-[150px]"
+              <div key={idx} className="flex flex-col items-center justify-center border-double border-2 border-yellow-200 py-1.5 px-1 hover:border-dotted">
+                {/* border: solid;
+    padding-top: 5px;
+    padding-bottom: 5px; */}
+                <img className="sm:h-[auto] sm:w-[auto] md:h-[auto] md:w-[auto]
+                 lg:h-28"
                 alt={skill.name}
                 src={skill.image}/>
-
-                <p>{skill.name}</p>
+                <div className="flex flex-col items-center justify-center sm:px-2">
+                <p className=" text-center ">{skill.name}</p>
+                </div>
               </div>
             ))}
+          </div>
           </div>
           </div>
           {/* <div className="flex justify-center">
