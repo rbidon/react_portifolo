@@ -51,7 +51,8 @@ const Works =()=>{
                 }
                 {project.deployLink === undefined|| null
                 ? ""
-                : <a href={project.githubLink}   target="_blank" rel="noreferrer" className="border-0 py-2 px-6 focus:outline-none rounded-full hover:outline-dashed outline ml-[20px] ">
+                : <a href={project.deployLink}   target="_blank" rel="noreferrer" className="border-0 py-2 px-6 
+                active:outline-dashed focus:outline-none rounded-full hover:outline-dashed outline ml-[20px] ">
                     Demo
                 
                 </a>

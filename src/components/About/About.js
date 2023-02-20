@@ -7,16 +7,17 @@ const About =()=>{
       <div className="container mx-auto flex px-10 py-20  flex-col items-center w-full">
         <div className="lg:flex-grow  lg:pr-24 lg:pl-24 md:pr-16 flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center text-center w-full">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-center self-center ">
-            Hey Again, I'm Rousse.
+            Hey Again, I'm Rousse!
             <br className="hidden lg:inline-block text-center" />I have a passionate for accessibility and creating usable digital products.
 
-to build amazing
-            apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          Software Engineer with a strong focus on accessibility design and creating usable digital products. As someone who struggles
+          with visibility myself, I see creating responsive web applications essential to increasing inclusivity. With experience in
+          technical customer support, I’m skilled at listening to users' needs and providing solutions that truly matter to them. I hope to
+          join an organization where I can make the product better for its customers every day..
+
+
           </p>
           
           <div className="skillsOuter ">
@@ -24,7 +25,7 @@ to build amazing
           <div className="skillsInner">
           <div className="skillsContainer grid  grid-cols-5 gap-4 place-content-center">
             {skillData.map((skill,idx)=> (
-              <div key={idx} className="flex flex-col items-center justify-center border-double border-2 border-yellow-200 py-1.5 px-1 hover:border-dotted">
+              <div key={idx} className="flex flex-col items-center justify-center border-double border-2 border-black py-1.5 px-1 hover:border-dotted">
                 {/* border: solid;
     padding-top: 5px;
     padding-bottom: 5px; */}
