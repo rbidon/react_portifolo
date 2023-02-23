@@ -57,7 +57,7 @@ const ContactForm = ()=>{
             </div>
             <div className="contactme-container">
                 
-                <div className="contactform"> 
+                <div className="contactform bg-yellow-100"> 
                 {status && renderAlert()}
                 
                     <form  onSubmit={handleSubmit}>

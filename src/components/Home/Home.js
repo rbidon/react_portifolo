@@ -7,25 +7,27 @@ const Home =() =>{
             {/* Home Section */}
             <section className="MainSectionContainer min-h-full min-w-full flex space-y-4 justify-evenly items-center lg:flex-row max-[660px]:flex-col-reverse">
                 <div className="flex flex-col items-center">
-                <div className="MainSectionTitle p-5" >
+                <div className="MainSectionTitle p-5 text-lg" >
                     <h2>
                         Hello There!
                     </h2>
                     <div className="MainSectionName flex items-center flex-col">
-                    <h2>
+                    <h2 className="text-lg">
                         My name is 
                     </h2>
-                    <span className="text-2xl">
+                    <span className="text-3xl ">
                         Rousse Bidon
                     </span>
                     </div>
+                    <div className="text-xl ">
                         <Typewriter
                          options={{
-                            strings: ['Software Engineer'],
+                            strings: ['Software Engineer.'],
                             autoStart: true,
                             loop: true,
                             pauseFor:200000
                           }}/>
+                    </div>
                 </div>
                 {/* Learn More Button */}
                 <a href={`works`}>

@@ -81,7 +81,8 @@ border-radius: 5px;
     display:flex;
     align-items:center;
     justify-content: center;
-    background-color:#DEB3B3;
+    /* background-color:#DEB3B3; */
+    /* background-color: rgb(254 243 199); */
     width: 70%;
     border-radius:30px; 
     flex-direction: column;
@@ -104,8 +105,8 @@ input, textarea{
     width: 100%;
     padding:10px;
     outline:0;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid black;
+    color: #000000;
     background-color:transparent;
     font-size: 15px;
 }
@@ -115,7 +116,7 @@ label{
     left: 0;
     top: 0;
     padding: 10px;
-    color: #fff;
+    color: #000000;
     cursor: text;
     transition: 0.2s;
     
@@ -126,10 +127,10 @@ input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label
 }
 
 input:focus {
-    border: 1px solid #F6E1E1;
+    border: 1px solid black;
 }
 textarea:focus {
-    border: 1px solid #F6E1E1;
+    border: 1px solid black;
 }
 .row{
     display:flex;
@@ -180,13 +181,13 @@ justify-content: flex-start;
     min-width: 200px;
     cursor: pointer;
     padding:10px 0;
-    border:1px solid #fff;
-    color:#fff;
+    border:1px solid black;
+   
     outline:none;
     background:transparent;
 }
 .submitbtn:active {
-    background-color:#F6E1E1;
+    background-color:#feeea7;
 }
   /* =========================== SOCIAL MEDIA ICONS ======================================== */
   .socialmedia ul {
