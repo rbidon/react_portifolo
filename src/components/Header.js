@@ -20,7 +20,9 @@ const Header = () => {
     }
 
   }, [])
+//  const [addUnderline, setUnderline]= useState(false, ()=>{
 
+//  })
 
   return(
         <>
@@ -60,17 +62,18 @@ const Header = () => {
              <ul className ="nav-links flex space-x-6  text-lg " id="navLink" >
              
              <li className="nav-item space-y-1">
-               <a href={`about`}>About</a>
+               <a href={`about`} className=" hover:underline underline-offset-4">About</a>
              </li>
              <li className="nav-item space-y-1">
-               <a href={`works`}>Works</a>
+               <a href={`works`} className=" hover:underline underline-offset-4">Works</a>
               
              </li>
              {/* Contact Page will Show on my index with icons/ footers */}
              <li className="nav-item space-y-1"> 
-               <a href={`contact`}>Contact</a>
+               <a href={`contact`}
+               className=" hover:underline underline-offset-4">Contact</a>
              </li>
-             <li className="nav-item space-y-1">
+             <li className="nav-item space-y-1  hover:underline underline-offset-4 ">
                 Resume
                  {/* Use Router */}
                {/* <a href="https://drive.google.com/file/d/1vqfx

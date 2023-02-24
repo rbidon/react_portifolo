@@ -34,7 +34,11 @@ const Works =()=>{
                   <p className="leading-relaxed">{project.description}</p>
                 </div> 
 
-                <div className="projectLinks flex justify-center">
+                <div className="projectLinks flex justify-center 
+                max-[490px]:flex-col
+                max-[490px]:space-y-4
+                max-[490px]:items-center
+                ">
 
                 {project.wireframeLink === undefined || null
                 ? ""
@@ -45,14 +49,16 @@ const Works =()=>{
                 }
                 {project.githubLink === undefined || null
                 ? ""
-                : <a href={project.githubLink}   target="_blank" rel="noreferrer" className="border-0 py-2 px-6 focus:outline-none rounded-full hover:outline-dashed outline ml-[20px] ">
+                : <a href={project.githubLink}   target="_blank" rel="noreferrer" className="border-0 py-2 px-6 focus:outline-none rounded-full hover:outline-dashed outline ml-[20px]
+                max-[490px]:m-0 ">
                     Code
                 </a>
                 }
                 {project.deployLink === undefined|| null
                 ? ""
                 : <a href={project.deployLink}   target="_blank" rel="noreferrer" className="border-0 py-2 px-6 
-                active:outline-dashed focus:outline-none rounded-full hover:outline-dashed outline ml-[20px] ">
+                active:outline-dashed focus:outline-none rounded-full hover:outline-dashed outline ml-[20px] 
+                max-[490px]:m-0">
                     Demo
                 
                 </a>
