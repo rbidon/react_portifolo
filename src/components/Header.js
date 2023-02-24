@@ -28,7 +28,8 @@ const Header = () => {
         <>
         
         {/* // <!-- header section --> */}
-        <header className={`header flex justify-between fixed top-0 left-0 right-0  bg-yellow-100 ${openNav ?"outline-double" :"outline-double"}`}> 
+        {/* Add fixed if I want the header to move with user when scrolling */}
+        <header className={`header flex justify-between static top-0 left-0 right-0  bg-yellow-100 ${openNav ?"outline-double" :"outline-double"}`}> 
         <div className="logo p-2">
             {/* This will send you back to the homepage */}
                {/* <a className="icon nav-links" href="./index.html"> */}
