@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 * {box-sizing:border-box;
   margin:0;
@@ -8,6 +9,7 @@ html, body {
   min-height: 100%;
   margin: 0;
   overflow-x: hidden;
+  font-family: 'Merriweather', cursive;
 }
 
 /* /* HEADER STYLING */

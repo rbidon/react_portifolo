@@ -22,7 +22,7 @@ const Home =() =>{
                     <div className="text-xl ">
                         <Typewriter
                          options={{
-                            strings: ['Software Engineer.'],
+                            strings: [' Software Engineer.'],
                             autoStart: true,
                             loop: true,
                             pauseFor:200000

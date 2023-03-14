@@ -70,15 +70,14 @@ const Header = () => {
               
              </li>
              {/* Contact Page will Show on my index with icons/ footers */}
-             <li className="nav-item space-y-1"> 
+             <li className="nav-item space-y-1 "> 
                <a href={`contact`}
                className=" hover:underline underline-offset-4">Contact</a>
              </li>
-             <li className="nav-item space-y-1  hover:underline underline-offset-4 ">
-                Resume
+             <li className="nav-item space-y-1  underline-offset-4  outline rounded-full px-2 hover:outline-dashed">
+                
                  {/* Use Router */}
-               {/* <a href="https://drive.google.com/file/d/1vqfx
-              UhIFhLyh2NijoUtNKaP51aYi-NED/view?usp=sharing" target="_blank">Resume</a> */}
+               <a href="https://drive.google.com/file/d/1NRIuwGCGblHBb8eA5iVlt5QMYQcQ3b9U/view?usp=sharing"   rel="noreferrer" target="_blank">Resume</a>
              </li>
              
            </ul> 
