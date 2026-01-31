@@ -34,10 +34,9 @@ const DataAnalysis = () => {
                   <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                   <div className="flex flex-col w-full mb-5">
                       <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
-                      Other Works
+                     Currently in Progress...
                       </h1>
                       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                      Recent project and collaborations
                       </p>
                   </div>
                  

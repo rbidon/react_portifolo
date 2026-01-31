@@ -3,7 +3,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import OtherWorks from './components/OtherWorks/OtherWorks'
 import Contact from './components/Contact/Contact';
-import TestingSwitchFeature from './components/TestingSwitchFeature/TestingSwitchFeature'
+import DataAnalysis from './components/TestingSwitchFeature/DataAnalysis'
 
 const AppRouter=() =>{
     return (
@@ -26,7 +26,7 @@ const AppRouter=() =>{
                 />
                 <Route path ='/dataanalysisworks'
                 element ={
-                    <TestingSwitchFeature/>
+                    <DataAnalysis/>
                 }
                 />
                 <Route path="/contact"
