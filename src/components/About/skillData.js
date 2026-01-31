@@ -12,6 +12,7 @@ import TailwindCSS from "./skillsImage/TailwindCSS.png"
 import Heroku from "./skillsImage/heroku-icon.921x1024.png"
 import Git from "./skillsImage/Git-Icon-1788C.png"
 import Figma from "./skillsImage/figma.png"
+
 const skillData =[
     {
         name:"HTML",
@@ -26,10 +27,10 @@ const skillData =[
         image:JS,
     },{
         name:"Python",
-        image:Python
+        image:Python,
     },{
         name:"SQL",
-        image:SQL
+        image:SQL,
     },{
         name:"Express",
         image:Express

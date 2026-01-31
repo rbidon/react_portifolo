@@ -1,6 +1,4 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid,  brands, } from '@fortawesome/fontawesome-svg-core/import.macro'
 import GoTop from './goToTopButton'
 const Footer =()=>{
     
@@ -14,25 +12,38 @@ const Footer =()=>{
         <ul>
           <li>
             <a href="https://github.com/rbidon" target="__blank" alt="Github Icon" title='Github'> 
-                <FontAwesomeIcon icon={
-                brands('github-alt')
-            } size = 'xl' className='social-icon'/>
+               <FontAwesomeIcon 
+               icon="fa-brands fa-github-alt" 
+               size='xl' 
+               transform={'down-1'}
+               className='social-icon'/>
+                
             </a>
             </li>
             <li>
                 <a href="mailto:roussebidon@gmail.com" target="__blank"
                 alt="Email Icon" title='Email'>
-                    <FontAwesomeIcon icon={
-                    solid('envelope')
-                    } size = 'xl' className='social-icon'/>
+                    <FontAwesomeIcon 
+                    icon="fa-regular fa-envelope"  
+                    size='xl' 
+                    transform={'down-1'}
+                    className ='social-icon'/>
                  </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/roussebidon/" target="__blank"
                 alt="Linkedin Icon" title='Linkedin'>
-                    <FontAwesomeIcon icon={
+                    <FontAwesomeIcon 
+                    icon="fa-brands fa-square-linkedin" 
+                    size='xl'
+                    transform={'down-8'}
+                    />
+                    {/* <FontAwesomeIcon 
+                    icon={byPrefixAndName.fab['square-linkedin']} 
+                    size='xl' className='social-icon'/> */}
+                    {/* <FontAwesomeIcon icon={
                     brands('linkedin')
-                    } size = 'xl' className='social-icon'/>
+                    } size = 'xl' className='social-icon'/> */}
                 </a>
             </li>
             
@@ -45,7 +56,7 @@ const Footer =()=>{
         <p className="footerHeader text-center pt-5 pb-2 bottom-0 flex
         justify-center
         items-end"> 
-         Copyright <span>©</span> 2023 </p>
+         Copyright  <span> © </span>  2026 </p>
          <GoTop/>
          </div>
     </footer>

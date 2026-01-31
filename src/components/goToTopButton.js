@@ -1,6 +1,5 @@
-import {React, useEffect, useState } from 'react';
+import {useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import styles from './goToTopButton.module.css'
 const GoTop =() => {
 
@@ -20,7 +19,7 @@ const GoTop =() => {
         <>
         <div className={showGoTop ?'' :styles.btnScrollToUpHidden} onClick={handleScrollToTop}>
             <button className={styles.btnScrollToUp}title="Go to Top">
-            <FontAwesomeIcon icon={solid ("arrow-up")} />
+            <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
             </button>
         </div>
         </>

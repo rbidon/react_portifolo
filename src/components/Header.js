@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react'
 import logo from '../images/Logo.png'
+// import whiteLogo from '../images/WhitebackgroundLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid} from '@fortawesome/fontawesome-svg-core/import.macro'
+
 const Header = () => {
   const [openNav, setOpenNav] = useState(false)
   // console.log("my navbar is open", openNav)
@@ -50,12 +51,13 @@ const Header = () => {
            {/* Make that a seperate components */}
           <button className="navButton sm:hidden " onClick={()=>setOpenNav(!openNav)}> 
           {openNav 
-          ?<FontAwesomeIcon icon={
-            solid('x')
-            } size = 'lg' className='exit'/>
-          :<FontAwesomeIcon icon={
-            solid('bars')
-            } size = 'lg' className='burger'/>
+          ?<FontAwesomeIcon 
+          icon="fa-solid fa-xmark"  
+          size='lg'
+          />
+          :<FontAwesomeIcon 
+          icon="fa-solid fa-xmark" 
+           size='lg'/>
           
           }
            </button>
@@ -65,9 +67,13 @@ const Header = () => {
              <li className="nav-item space-y-1">
                <a href={`about`} className=" hover:underline underline-offset-4">About</a>
              </li>
+             {/* Data Analysis Switch  */}
+             <li className='nav-item space-y-1'>
+              <a href={`dataanalysisworks`}
+               className=" hover:underline underline-offset-4">Data Analysis</a>
+             </li>
              <li className="nav-item space-y-1">
-               <a href={`works`} className=" hover:underline underline-offset-4">Works</a>
-              
+               <a href={`otherworks`} className=" hover:underline underline-offset-4"> Other Works</a>
              </li>
              {/* Contact Page will Show on my index with icons/ footers */}
              <li className="nav-item space-y-1 "> 

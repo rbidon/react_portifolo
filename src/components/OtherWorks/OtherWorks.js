@@ -1,22 +1,22 @@
-import React from "react";
-import works from "./workdata";
+import otherworks from "./otherworkdata";
 
 const Works =()=>{
 
     return(
         <>
+        
           <section id="projects" className="body-font pt-16">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-5">
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
-                Works
+                Other Works
                 </h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                 Recent project and collaborations
                 </p>
             </div>
             <div className="flex flex-wrap justify-center  rounded-md space-y-6">
-            {works.map((project,idx) => (
+            {otherworks.map((project,idx) => (
             
               <div className="flex flex-col items-center   border-4 w-5/6 pt-8 pb-8 rounded-[20px] " key={idx}>
                 <img

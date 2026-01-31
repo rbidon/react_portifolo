@@ -1,12 +1,12 @@
 import MatchyGame from '../../images/MatchyGame.png'
 import DocMcOffice from '../../images/DocMcOffice.png'
 import Streamin from '../../images/Streamin-Screenshots.png'
-const worksdata =[
+const otherworksdata =[
     {
         title: "Doc McOffice",
         skills: "Express | Node| MongoDB | Tailwind CSS",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+          "Full Stack Doctor Appointment Tracker application that allows users to use full CRUD capabilities to store patient's doctor appointments",
         image: DocMcOffice,
         imageAlt:"DocMcOffice",
         githubLink: "https://github.com/rbidon/DocMcOffice",
@@ -46,4 +46,4 @@ const worksdata =[
 ]
 
 
-export default worksdata
+export default otherworksdata

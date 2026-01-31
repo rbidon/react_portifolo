@@ -9,7 +9,7 @@ html, body {
   min-height: 100%;
   margin: 0;
   overflow-x: hidden;
-  font-family: 'Merriweather', cursive;
+  font-family: 'Merriweather', "Times New Roman", cursive;
 }
 
 /* /* HEADER STYLING */

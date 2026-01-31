@@ -8,33 +8,42 @@ const Home =() =>{
             <section className="MainSectionContainer min-h-full min-w-full flex space-y-4 justify-evenly items-center lg:flex-row max-[660px]:flex-col-reverse">
                 <div className="flex flex-col items-center">
                 <div className="MainSectionTitle p-5 text-lg" >
-                    <h2>
+                    <h2 className="text-3xl flex">
                         Hello There!
                     </h2>
                     <div className="MainSectionName flex items-center flex-col">
-                    <h2 className="text-lg">
+                    <h2 className="text-2xl">
                         My name is 
                     </h2>
-                    <span className="text-3xl ">
+                    <span className="text-4xl ">
                         Rousse Bidon
                     </span>
                     </div>
                     <div className="text-xl ">
                         <Typewriter
                          options={{
-                            strings: [' Software Engineer.'],
+                            strings: [' Data Lover, Data Analyst , Runner , Pottery Maker'],
                             autoStart: true,
                             loop: true,
-                            pauseFor:200000
+                            pauseFor:200,
+                            deleteSpeed:'natural'
                           }}/>
                     </div>
                 </div>
-                {/* Learn More Button */}
-                <a href={`works`}>
+                <div className="mainpage_button flex space-x-4">
+                {/* Learn More Button For Data Analysis */}
+                <a href={`dataanalysisworks`}>
                     <button className="btn  text-black outline font-bold py-2 px-4 rounded-full hover:outline-dashed">
-                        View My Works
+                        Data Analysis
                     </button>
                 </a>
+
+                <a href={`otherworks`}>
+                    <button className="btn  text-black outline font-bold py-2 px-4 rounded-full hover:outline-dashed">
+                        Other Works
+                    </button>
+                </a>
+                </div>
                 </div>
                 <div className="MainSectionImage">
                     {/* Portifolo Image */}

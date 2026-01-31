@@ -1,5 +1,5 @@
-import React from "react";
-import skillData from "./skillData";
+import Skills from "./Skills";
+
 const About =()=>{
     return(
         <div className="pt-10" >
@@ -9,51 +9,27 @@ const About =()=>{
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-center self-center ">
             Hello Again, I'm Rousse!
             <br/>
-            <br className="hidden  text-center" />I have a passionate for accessibility and creating usable digital products.
+            <br className=" hidden  text-center" />
+            <div className="italic pt-2"> I have passionate for telling stories through data! </div>
 
           </h1>
-          <p className="mb-8 leading-relaxed">
-          Software Engineer with a strong focus on accessibility design and creating usable digital products. As someone who struggles
-          with visibility myself, I see creating responsive web applications essential to increasing inclusivity. With experience in
-          technical customer support, I’m skilled at listening to users' needs and providing solutions that truly matter to them. I hope to
-          join an organization where I can make the product better for its customers every day..
-
-
+          <p className="mb-8 leading-relaxed text-left">
+          Data lover that enjoys converting complex datasets
+          into meaningful stories that provides insights and solutions to users & businesses' needs. Recently graduated with 
+          Masters of Science in Data Analysis and AI and currently working as
+          a Data Validation Analyst, which have provided me experience in properly understanding 
+          businesses goals and problems while doing actionable steps to resolves them. 
           </p>
           
-          <div className="skillsOuter ">
-            <h2 className="sm:text-4xl text-2xl mb-4 font-medium text-center">Skills</h2>
-          <div className="skillsInner">
-          <div className="skillsContainer grid  grid-cols-5 gap-4 place-content-center">
-            {skillData.map((skill,idx)=> (
-              <div key={idx} className="flex flex-col items-center justify-center border-double border-2 border-black py-1.5 px-1 hover:border-dotted">
-                {/* border: solid;
-    padding-top: 5px;
-    padding-bottom: 5px; */}
-                <img className="sm:h-[auto] sm:w-[auto] md:h-[auto] md:w-[auto]
-                 lg:h-28"
-                alt={skill.name}
-                src={skill.image}/>
-                <div className="flex flex-col items-center justify-center sm:px-2">
-                <p className=" text-center ">{skill.name}</p>
-                </div>
-              </div>
-            ))}
+          <p>
+          Also, I have create frontend, fullstack Applications
+
+          </p><br></br>
+
+          <div>
+            <Skills/>
           </div>
-          </div>
-          </div>
-          {/* <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="flex justify-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div> */}
+
         </div>
         </div>
         </section>

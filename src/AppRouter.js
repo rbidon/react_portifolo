@@ -1,10 +1,9 @@
-import React from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-
 import Home from './components/Home/Home'
 import About from './components/About/About'
-import Works from './components/Works/Works'
+import OtherWorks from './components/OtherWorks/OtherWorks'
 import Contact from './components/Contact/Contact';
+import TestingSwitchFeature from './components/TestingSwitchFeature/TestingSwitchFeature'
 
 const AppRouter=() =>{
     return (
@@ -20,9 +19,14 @@ const AppRouter=() =>{
                     <About/>
                 }
                 />
-                <Route path="/works"
+                <Route path="/otherworks"
                 element={
-                    <Works/>
+                    <OtherWorks/>
+                }
+                />
+                <Route path ='/dataanalysisworks'
+                element ={
+                    <TestingSwitchFeature/>
                 }
                 />
                 <Route path="/contact"
