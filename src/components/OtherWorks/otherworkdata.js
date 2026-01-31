@@ -1,6 +1,7 @@
 import MatchyGame from '../../images/MatchyGame.png'
 import DocMcOffice from '../../images/DocMcOffice.png'
 import Streamin from '../../images/Streamin-Screenshots.png'
+import OldPersonalPortfolio from '../../images/OLDPersonalPortfolio.png'
 const otherworksdata =[
     {
         title: "Doc McOffice",
@@ -12,17 +13,27 @@ const otherworksdata =[
         githubLink: "https://github.com/rbidon/DocMcOffice",
         deployLink:"https://docmcoffice.herokuapp.com/"
        
-        
     },{
-        title: "Personal Portfolio",
-        skills: "React | Tailwind CSS",
+        title: "OLD Personal Portfolio",
+        skills: "HTML | JavaScript | Bootstrap| CSS",
         description:
-          "Personal Personal Portfolio, used React and TailWindCSS",
-        image: "Personal Portfolio Image",
-        imageAlt:"Personl Portfolio",
+          "Old Personal Personal Portfolio, used JavaScript and CSS",
+        image: OldPersonalPortfolio,
+        imageAlt:"OLD Personal Portfolio",
         wireframeLink:"https://www.figma.com/file/jz3YeBL3LAkdh2wdrdFFuD/Portifolo?node-id=0%3A1&t=bPqmExMluSBI7t8e-1",
-        githubLink: "https://github.com/rbidon/react_portifolo"
+        githubLink: "https://github.com/rbidon/portfolio_project",
+        deployLink: "https://roussevbidon.com/index.html#portifolo-section"
     },{
+    // },{
+    //     title: "Personal Portfolio",
+    //     skills: "React | Tailwind CSS",
+    //     description:
+    //       "Personal Personal Portfolio, used React and TailWindCSS",
+    //     image: "Personal Portfolio Image",
+    //     imageAlt:"Personl Portfolio",
+    //     wireframeLink:"https://www.figma.com/file/jz3YeBL3LAkdh2wdrdFFuD/Portifolo?node-id=0%3A1&t=bPqmExMluSBI7t8e-1",
+    //     githubLink: "https://github.com/rbidon/react_portifolo"
+    // },{
         title: "Matchy Game",
         skills: " HTML | JavaScript | CSS",
         description:
@@ -42,7 +53,8 @@ const otherworksdata =[
         wireframeLink:"https://www.figma.com/file/GjALwdHH6jhqC3E2UzJQ6P/Streamin-Wireframe?node-id=0%3A1&t=RS95A3uQRpoNl3iJ-1",
         githubLink: "https://github.com/Bernard-Calma/streamin-frontend",
         deployLink:"https://stream-in.herokuapp.com/"
-    }
+    },
+    
 ]
 
 

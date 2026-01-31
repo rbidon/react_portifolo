@@ -81,9 +81,11 @@ const Header = () => {
                className=" hover:underline underline-offset-4">Contact</a>
              </li>
              <li className="nav-item space-y-1  underline-offset-4  outline rounded-full px-2 hover:outline-dashed">
-                
+                Resume --- Currently Updating
                  {/* Use Router */}
-               <a href="https://drive.google.com/file/d/1NRIuwGCGblHBb8eA5iVlt5QMYQcQ3b9U/view?usp=sharing"   rel="noreferrer" target="_blank">Resume</a>
+                 {/* Removing Resume Must Update */}
+               {/* <a href="https://drive.google.com/file/d/1NRIuwGCGblHBb8eA5iVlt5QMYQcQ3b9U/view?usp=sharing"  
+                rel="noreferrer" target="_blank">Resume</a> */}
              </li>
              
            </ul> 
