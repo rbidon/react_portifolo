@@ -69,7 +69,7 @@ const Header = () => {
              </li>
              {/* Data Analysis Switch  */}
              <li className='nav-item space-y-1'>
-              <a href={`dataanalysisworks`}
+              <a href={``}
                className=" hover:underline underline-offset-4">Data Analysis</a>
              </li>
              <li className="nav-item space-y-1">

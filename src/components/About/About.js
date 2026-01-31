@@ -22,7 +22,7 @@ const About =()=>{
           </p>
           
           <p>
-          Also, I have create frontend, fullstack Applications
+         During my free time, you can find me in the nature and I am currently training for a 5K! 
 
           </p><br></br>
 
