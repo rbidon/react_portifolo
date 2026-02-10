@@ -56,7 +56,7 @@ const Header = () => {
           size='lg'
           />
           :<FontAwesomeIcon 
-          icon="fa-solid fa-xmark" 
+          icon="fa-solid fa-bars" 
            size='lg'/>
           
           }

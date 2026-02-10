@@ -22,7 +22,7 @@ const otherworksdata =[
         imageAlt:"OLD Personal Portfolio",
         wireframeLink:"https://www.figma.com/file/jz3YeBL3LAkdh2wdrdFFuD/Portifolo?node-id=0%3A1&t=bPqmExMluSBI7t8e-1",
         githubLink: "https://github.com/rbidon/portfolio_project",
-        deployLink: "https://roussevbidon.com/index.html#portifolo-section"
+        deployLink: "https://roussevbidon.com/"
     },{
     // },{
     //     title: "Personal Portfolio",
